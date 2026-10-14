@@ -31,7 +31,6 @@ export class ConfigSyncSettingsTabComponent extends BaseComponent {
 
     async ngOnInit () {
         await this.testConnection()
-        this.loadConfigs()
     }
 
     async testConnection () {
